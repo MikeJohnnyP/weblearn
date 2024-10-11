@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Birdwatching</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300%7CCinzel+Decorative:700" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet"> 
+
+    <!--[if lt IE 9]>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+    <![endif]-->
+
+    <style>
+      html, body{
+        margin: 0;
+        padding: 0;
+        font-family: "Roboto", sans-serif;
+        box-sizing: border-box;
+      }
+      .container{
+        width: 1200px;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+      }
+    .header {
+      justify-content: space-between;
+      align-items: center;
+      background-color: #22cd1c; /* Màu nền chính */
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); /* Đổ bóng */
+      padding-bottom: 10px;
+      padding-right: 10px;
+      padding-left: 10px;
+    }
+
+    .content {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #22cd1c; /* Màu nền chính */
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); /* Đổ bóng */
+      padding-bottom: 10px;
+      padding-right: 10px;
+      padding-left: 10px;
+      gap: 10px;
+      margin-top: 20px;
+    }
+
+    .welcome{
+      background-color: aquamarine;
+      height: 100%;
+      width: 70%;
+    }
+
+    .favourite{
+      background-color: #3f6b3e; /* Màu nền chính */
+      display: inline-flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      padding-left: 10px;
+      padding-right: 10px;
+      margin-top: 10px;
+      width: 30%;
+    }
+
+    .favourite-title {
+      display: flex;
+      justify-content: center;
+    }
+
+    .favourite-img{
+      display: flex;
+      justify-content: space-evenly;
+      flex-wrap: wrap;
+    }
+
+    .header .title{
+      display: flex;
+      flex-flow: wrap row;
+      justify-content: space-between;
+    }
+
+    .logo img{
+      width: 50px; 
+      height: 50px;
+      object-fit: cover;
+    }
+
+    .nav{
+      align-content: center;
+      background-color: #6deb68;
+      height: 50px;
+    }
+    .nav ul{
+      display: flex;
+      justify-content: space-evenly;
+      
+    }
+
+    .nav ul li{
+      list-style: none;
+      text-decoration: none;
+    }
+    
+    a {
+      text-decoration: none;
+    }
+    
+    </style>
+  </head>
+
+  <body style="background-color: gray;">
+    <div class="container">
+      <div class="header">
+        <div class="title">
+          <div class="ano"></div>
+          <div class="name">
+            <h1>BIRDWATCHING</h1>
+          </div>
+          <div class="logo">
+            <img src="dove.png" alt="a simple dove logo">
+          </div>
+        </div>
+        <div class="nav">
+          <ul>
+            <li><span>Home</span></li>
+            <li><a href="#">Get started</a></li>
+            <li><a href="#">Photos</a></li>
+            <li><a href="#">Gear</a></li>
+            <li><a href="#">Forum</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="welcome">
+          <h2>Welcome</h2>
+          <p>Welcome to our fake birdwatching site. If this were a real site, it would be the ideal place to come to learn more about birdwatching, whether you are a beginner looking to learn how to get into birding, or an expert wanting to share ideas, tips, and photos with other like-minded people.</p>
+
+          <p>So don't waste time! Get what you need, then turn off that computer and get out into the great outdoors!</p>
+        </div>
+        <div class="favourite">
+          <div class="favourite-title">
+            <h2>Favourite photos</h2>
+          </div>
+          <div class="favourite-img">
+            <a href="favorite-1.jpg"><img style="width: 150px;height: 150px;object-fit: cover;"  src="favorite-1_th.jpg" alt="Small black bird, black claws, long black slender beak, links to larger version of the image"></a>
+            <a href="favorite-2.jpg"><img style="width: 150px;height: 150px;object-fit: cover;"  src="favorite-2_th.jpg" alt="Top half of a pretty bird with bright blue plumage on neck, light colored beak, blue headdress, links to larger version of the image"></a>
+            <a href="favorite-3.jpg"><img style="width: 150px;height: 150px;object-fit: cover;"  src="favorite-3_th.jpg" alt="Top half of a large bird with white plumage, very long curved narrow light colored break, links to larger version of the image"></a>
+            <a href="favorite-4.jpg"><img style="width: 150px;height: 150px;object-fit: cover;"  src="favorite-4_th.jpg" alt="Large bird, mostly white plumage with black plumage on back and rear, long straight white beak, links to larger version of the image"></a>
+          </div>
+        </div>
+      </div>
+      <div class="footer">
+        <p>This fake website example is CC0 — any part of this code may be reused in any way you wish. Original example written by Chris Mills, 2016.</p>
+
+        <p><a href="http://game-icons.net/lorc/originals/dove.html">Dove icon</a> by Lorc.</p>
+      </div>
+    </div>
+  </body>
+</html>
